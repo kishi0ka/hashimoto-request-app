@@ -5,7 +5,7 @@ import { RequestItem, TaskType } from '@/types';
 import { getRequests, updateRequestStatus, updateRequest, getTaskTypes } from '@/lib/firestore';
 import { calculateCurrentWorkload, formatMinutesToHoursAndMinutes } from '@/lib/analytics';
 import { isBefore } from 'date-fns';
-import { formatDateSafe, formatDateForInput } from '@/lib/dateUtils';
+import { formatDateForInput } from '@/lib/dateUtils';
 import LoadingSpinner from '@/components/LoadingSpinner';
 import ClientDate from '@/components/ClientDate';
 

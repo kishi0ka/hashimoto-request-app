@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { TaskType } from '@/types';
 import { getTaskTypes, updateTaskType } from '@/lib/firestore';
-import { formatDateSafe } from '@/lib/dateUtils';
 import LoadingSpinner from '@/components/LoadingSpinner';
 import ClientDate from '@/components/ClientDate';
 
